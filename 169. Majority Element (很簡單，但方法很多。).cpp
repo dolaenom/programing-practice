@@ -6,5 +6,5 @@ public:
         middle=(nums.size()/2);
         sort(nums.begin(),nums.end());
         return nums[middle];
-    } 
+    }
 };
