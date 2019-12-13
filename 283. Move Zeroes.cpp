@@ -1,4 +1,3 @@
-//額外設定了一個醜的中斷點，要不然持續找零替換那邊會卡住。 
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -16,7 +15,7 @@ public:
             }
             
             temp++;
-            if(temp>2*(nums.size()))
+            if(temp>2*(nums.size())) //額外設定了個還能改進的中斷點，不然持續找零替換會一直跑。 
                 break;
         }
     }
