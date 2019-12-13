@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     vector<int> twoSum(vector<int>& nums, int target) { //需會使用Vector才容易寫。
         
         int first_num,sec_num;
