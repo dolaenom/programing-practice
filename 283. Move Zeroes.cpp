@@ -1,4 +1,4 @@
-//額外設定了一個醜的中斷點，要不然持續找零替換那邊會卡住。
+//額外設定了一個醜的中斷點，要不然持續找零替換那邊會卡住。 
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
