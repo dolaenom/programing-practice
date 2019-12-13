@@ -5,7 +5,6 @@ public:
         vector<int> nums3(0);
         int counter1,counter2;
         
-        
         for(counter1=0;counter1<nums1.size();counter1++)
         {
             for(counter2=0;counter2<nums2.size();counter2++)
